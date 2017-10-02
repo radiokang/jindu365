@@ -89,11 +89,6 @@ if __name__ == '__main__':
     try:
         question_all = {}
 
-        # with open('/Users/kangtianhao/Downloads/questions.html') as fp:
-        #     data = fp.read()
-        #
-        # parse(data, question_all)
-
         opener = login()
         if opener is not None:
             while True:
